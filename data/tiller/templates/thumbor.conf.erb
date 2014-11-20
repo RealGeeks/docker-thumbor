@@ -169,6 +169,11 @@ DETECTORS = [
     ## has already went through remote detection
     ## 'thumbor.filters.redeye',
 #]
+#
+
+# cloudfiles upstream is s l o w sometimes
+HTTP_LOADER_CONNECT_TIMEOUT = 20
+HTTP_LOADER_REQUEST_TIMEOUT = 20
 
 OPTIMIZERS = [
     'thumbor.optimizers.jpegtran',
