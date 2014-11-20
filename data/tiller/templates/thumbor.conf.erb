@@ -8,7 +8,7 @@
 # http://www.opensource.org/licenses/mit-license
 # Copyright (c) 2011 globo.com timehome@corp.globo.com
 
-SECURITY_KEY = "<%= env_security_key %>"
+SECURITY_KEY = "<%= env_SECURITY_KEY %>"
 
 ALLOW_UNSAFE_URL = False
 
@@ -180,3 +180,5 @@ OPTIMIZERS = [
 JPEGTRAN_PATH = '/usr/bin/jpegtran'
 GIFSICLE_PATH = '/usr/bin/gifsicle'
 PNGCRUSH_PATH = '/usr/bin/pngcrush'
+
+SENTRY_DSN_URL = '<%= env_SENTRY_DSN %>'
