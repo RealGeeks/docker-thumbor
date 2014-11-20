@@ -13,5 +13,5 @@ This is an opinionated docker container that runs Thumbor with the following set
 You need to pass the secret key and sentry DSN in an environment variable.  Example:
 
 ```bash
-docker run -e "SECURITY_KEY=foofoosecret" -e "SENTRY_DSN=http://whatever" -p 8888:8888 realgeeks/thumbor
+docker run -e "THUMBOR_SECURITY_KEY=foofoosecret" -e "SENTRY_DSN=http://whatever" -p 8888:8888 realgeeks/thumbor
 ```
