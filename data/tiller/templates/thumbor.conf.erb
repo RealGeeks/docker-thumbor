@@ -35,7 +35,7 @@ ALLOW_UNSAFE_URL = False
 #WEBP_QUALITY = 80
 
 # Automatically converts images to WebP if Accepts header present
-AUTO_WEBP = True
+#AUTO_WEBP = True
 
 # Preserves exif information in generated images. Increases image size in kbytes, use with caution.
 # PRESERVE_EXIF_INFO = False
@@ -177,14 +177,14 @@ HTTP_LOADER_REQUEST_TIMEOUT = 20
 
 OPTIMIZERS = [
     #'thumbor.optimizers.jpegtran',
-    'thumbor.optimizers.gifsicle',
-    'thumbor.optimizers.pngcrush',
+    #'thumbor.optimizers.gifsicle',
+    #'thumbor.optimizers.pngcrush',
     #'thumbor.optimizers.gifv',
 ]
 
 #JPEGTRAN_PATH = '/usr/bin/jpegtran'
-GIFSICLE_PATH = '/usr/bin/gifsicle'
-PNGCRUSH_PATH = '/usr/bin/pngcrush'
+#GIFSICLE_PATH = '/usr/bin/gifsicle'
+#PNGCRUSH_PATH = '/usr/bin/pngcrush'
 
 USE_CUSTOM_ERROR_HANDLING = True
 SENTRY_DSN_URL = '<%= env_sentry_dsn %>'
