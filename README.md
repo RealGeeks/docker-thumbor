@@ -11,8 +11,12 @@ This is an opinionated docker container that runs Realgeeks' thumbor fork with t
 
 ## Deploying
 
-You need to pass the secret key and sentry DSN in an environment variable.  Example:
+Some environment variables are required.  Example:
 
 ```bash
-docker run -e "THUMBOR_SECURITY_KEY=foofoosecret" -e "SENTRY_DSN=http://whatever" -p 8888:8888 realgeeks/thumbor
+docker run \
+    -e "THUMBOR_SECURITY_KEY=foofoosecret" \
+    -e "SENTRY_DSN=http://whatever" \
+    -e "ALLOW_UNSAFE=False" \
+    -p 8888:8888 realgeeks/thumbor
 ```
