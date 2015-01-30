@@ -4,7 +4,7 @@ MAINTAINER kevin@realgeeks.com
 ENV environment production
 
 RUN apt-get update && apt-get install -y libjpeg-progs webp libwebp-dev pngcrush gifsicle ruby && gem install tiller
-RUN pip install raven git+git://github.com/RealGeeks/thumbor.git@9188ef62f82c00eb97f2bfc130dbe35c657866ed
+RUN pip install raven git+git://github.com/RealGeeks/thumbor.git@0d3e59435df9f946443c7202f52b2b7b0ccefeff
 
 ADD data/tiller /etc/tiller
 
