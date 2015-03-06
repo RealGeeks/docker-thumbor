@@ -1,4 +1,4 @@
-exec: /usr/local/bin/thumbor -c /etc/thumbor.conf
+exec: newrelic-admin run-program /usr/local/bin/thumbor -c /etc/thumbor.conf
 data_sources:
   - file
   - environment
