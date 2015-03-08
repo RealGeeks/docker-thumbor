@@ -8,7 +8,6 @@ This is an opinionated docker container that runs Realgeeks' thumbor fork with t
 4. Using PIL engine
 5. Integrated Sentry support
 6. Etags are disabled
-7. New Relic agent is installed
 
 ## Deploying
 

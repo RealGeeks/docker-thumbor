@@ -1,6 +1,3 @@
 thumbor.conf.erb:
   target: /etc/thumbor.conf
   config: {}
-newrelic.ini.erb:
-  target: newrelic.ini
-  config: {}
