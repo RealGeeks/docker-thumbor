@@ -5,7 +5,7 @@ ENV environment production
 ENV NEW_RELIC_CONFIG_FILE newrelic.ini
 
 RUN apt-get update && apt-get install -y libjpeg-progs webp libwebp-dev pngcrush gifsicle ruby && gem install tiller
-RUN pip install newrelic raven git+git://github.com/RealGeeks/thumbor.git@0d3e59435df9f946443c7202f52b2b7b0ccefeff
+RUN pip install newrelic raven git+git://github.com/RealGeeks/thumbor.git@52e55a076a1a028feacf6beb08a9e1cb69832bf6
 
 ADD data/tiller /etc/tiller
 
