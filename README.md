@@ -1,6 +1,6 @@
 # Thumbor in Docker
 
-This is an opinionated docker container that runs Realgeeks' thumbor fork with the following settings:
+This is an opinionated docker container that runs ~~Realgeeks' thumbor fork~~ thumbor with the following settings:
 
 1. Webp enabled, sniffing for Accept headers
 2. All persistence disabled. Caching should be done on the CDN.
